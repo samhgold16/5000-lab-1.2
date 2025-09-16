@@ -1,0 +1,47 @@
+# component 2
+(base) MacBook-Air-1587:~ adamgold$ git clone https://github.com/samhgold16/5000-lab-1.2.git
+Cloning into '5000-lab-1.2'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+(base) MacBook-Air-1587:~ adamgold$ cd 5000-lab-1.2/
+(base) MacBook-Air-1587:5000-lab-1.2 adamgold$ touch commands.txt
+(base) MacBook-Air-1587:5000-lab-1.2 adamgold$ ls
+README.md	commands.txt
+(base) MacBook-Air-1587:5000-lab-1.2 adamgold$ nano commands.txt
+
+# component 3
+(base) MacBook-Air-1587:5000-lab-1.2 adamgold$ touch reference.bib
+(base) MacBook-Air-1587:5000-lab-1.2 adamgold$ cd simple_quarto_website
+(base) MacBook-Air-1587:simple_quarto_website adamgold$ ls
+_quarto.yml	about.qmd	index.qmd	styles.css
+(base) MacBook-Air-1587:simple_quarto_website adamgold$ rm styles.css
+(base) MacBook-Air-1587:simple_quarto_website adamgold$ mkdir images
+(base) MacBook-Air-1587:simple_quarto_website adamgold$ mkdir slides
+(base) MacBook-Air-1587:simple_quarto_website adamgold$ quarto convert about.qmd
+Converted to about.ipynb
+(base) MacBook-Air-1587:simple_quarto_website adamgold$ ls
+_quarto.yml	about.ipynb	about.qmd	images		index.qmd	slides
+(base) MacBook-Air-1587:simple_quarto_website adamgold$ cd ../
+(base) MacBook-Air-1587:5000-lab-1.2 adamgold$ ls
+README.md		commands.txt		reference.bib		simple_quarto_website
+(base) MacBook-Air-1587:5000-lab-1.2 adamgold$ mv reference.bib simple_quarto_website/
+(base) MacBook-Air-1587:5000-lab-1.2 adamgold$ cd simple_quarto_website/
+(base) MacBook-Air-1587:simple_quarto_website adamgold$ ls
+_quarto.yml	about.qmd	index.qmd	slides
+about.ipynb	images		reference.bib
+(base) MacBook-Air-1587:simple_quarto_website adamgold$ more reference.bib 
+@article{kuzmits2008nfl,
+  title={The NFL combine: does it predict performance in the National Football League?},
+  author={Kuzmits, Frank E and Adams, Arthur J},
+  journal={The Journal of strength \& conditioning research},
+  volume={22},
+  number={6},
+  pages={1721--1727},
+  year={2008},
+  publisher={LWW}
+}
+
+

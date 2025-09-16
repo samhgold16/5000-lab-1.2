@@ -1,0 +1,102 @@
+---
+title: "My DSAN 5000 Lab 3 Assignment"
+bibliography: reference.bib
+---
+
+# Introduction Paragraph
+
+Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+
+## English Translations
+
+- Lorem ipsum: My name is Sam
+- Tempus leo: Timing
+- Ut hendrerit semper: As always
+- Nostra inceptos: Our projects
+
+## Some Cool Columns are Below
+
+:::: {.columns}
+::: {.column width = "50%"}
+### Pros
+
+- Is good
+- Is not bad
+- Is a pro
+:::
+
+::: {.column width = "50%"}
+### Cons
+
+- Is bad
+- Is not good
+- Is a con
+
+:::
+::::
+
+## Some *"Cool"* Tables are Below
+
+| Subject  | Temperature       | Is Cool? |
+|---------------|--------------|-----------------|
+| Subject 1 | -10  | YES     |
+| Subject 2  | 0   | YES     |
+| Subject 3 | 5     | YES     |
+
+| Subject  | Temperature       | Is Cool? |
+|---------------|--------------|-----------------|
+| Subject 3 | 100  | NO     |
+| Subject 4  | 90   | NO     |
+| Subject 5 | 85     | NO     |
+
+
+## Fun Math!
+
+After studying statistics in undergrad and starting this degree, I have begun to see Baye's Theorem, $\Pr(A \mid B) = \frac{\Pr(B \mid A)\Pr(A)}{\Pr(B)}$, in my sleep! But if $\Pr(A)$ and $\Pr(B)$ are independent or mutually exclusive, who cares! Still, you can do some pretty fun things with Baye's Theorem. Like the transformation below:
+
+$$\Pr(A \mid B) = \frac{\Pr(B \mid A)\Pr(A)}{\Pr(B)} = \frac{\Pr(A \cap B)}{\Pr(B)}$$
+
+## Extra Notes
+
+It's always important to both cite and footnote your text, the extra information and content will surely help the reader if they have questions[^1].
+
+[^1]: But who checks footnootes, they're boooring.
+
+If you ever include a quote in you're writing, unless you mention the speaker or author, you should definitely add a footnote for the source. For instance, someone once said: 
+
+> "Once upon a time, a time waltzed upon a clock"[^2]
+
+In response to this thought-provoking message, someone responded with:
+
+> "I do"[^3]
+
+[^2]: Really? Who would've ever said this.
+[^3]: Someone getting married.
+
+## Media
+
+Here are some sports graphics I made using photoshop when I was a student at the University of Michigan.
+
+![National Championship Template for the Michigan Wrestling Team](images/davisonchamp1.png)
+
+![Olympic Templates for Michigan Wrestlers](images/WRM Olympians V3.png)
+
+And here is a video of one of my favorite moments as a student at Michigan.
+
+{{< video https://www.youtube.com/watch?v=E7In-OO_bJI width="560" height="315" >}}
+
+
+## Extra Extra Notes
+
+```{mermaid}
+%%| fig-cap: "A Mermaid diagram of the difficult decisions I have to make every day."
+%%| code-fold: false
+flowchart LR
+  A[Wake Up] --> B(Eat Food)
+  B --> C{Decide Plans}
+  C --> D[Do Schoolwork]
+  C --> E[Watch TV]
+  C --> F[Sleep]
+```
+
+Not mentioned in the mermaid diagram above is the decision to spend time thinking about football. According to recent studies [@kuzmits2008nfl], thinking about football increases IQ exponentially.
