@@ -2,9 +2,30 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Background",
     "section": "",
-    "text": "About this site"
+    "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos."
+  },
+  {
+    "objectID": "about.html#work-experience",
+    "href": "about.html#work-experience",
+    "title": "Background",
+    "section": "Work Experience",
+    "text": "Work Experience\nLorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos."
+  },
+  {
+    "objectID": "about.html#awards",
+    "href": "about.html#awards",
+    "title": "Background",
+    "section": "Awards",
+    "text": "Awards\nLorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos."
+  },
+  {
+    "objectID": "about.html#my-favorite-lines-of-code",
+    "href": "about.html#my-favorite-lines-of-code",
+    "title": "Background",
+    "section": "My Favorite Lines of Code",
+    "text": "My Favorite Lines of Code\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nx = np.random.rand(100) \ny = np.random.rand(100)  \n\nplt.scatter(x, y, color=\"red\", edgecolors=\"gold\")\n\n# Add title and labels\nplt.title(\"Scatterplot\")\nplt.xlabel(\"X\")\nplt.ylabel(\"Y\")\n\nplt.show()"
   },
   {
     "objectID": "index.html",
@@ -68,5 +89,40 @@
     "title": "My DSAN 5000 Lab 3 Assignment",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nBut who checks footnootes, they’re boooring.↩︎\nReally? Who would’ve ever said this.↩︎\nSomeone getting married.↩︎"
+  },
+  {
+    "objectID": "slides/slides.html#intro-slide",
+    "href": "slides/slides.html#intro-slide",
+    "title": "My Slides File for Lab 3",
+    "section": "Intro Slide",
+    "text": "Intro Slide\nHello\n…\nGoodbye"
+  },
+  {
+    "objectID": "slides/slides.html#cool-columns",
+    "href": "slides/slides.html#cool-columns",
+    "title": "My Slides File for Lab 3",
+    "section": "Cool Columns",
+    "text": "Cool Columns\n\n\nLeft column\n\nL\nE\nF\nT\n\n\nRight column\n\nR\nI\nG\nH\nT"
+  },
+  {
+    "objectID": "slides/slides.html#cool-tables-and-plots",
+    "href": "slides/slides.html#cool-tables-and-plots",
+    "title": "My Slides File for Lab 3",
+    "section": "Cool Tables and Plots",
+    "text": "Cool Tables and Plots"
+  },
+  {
+    "objectID": "slides/slides.html#michigan-wrestling-graphics",
+    "href": "slides/slides.html#michigan-wrestling-graphics",
+    "title": "My Slides File for Lab 3",
+    "section": "Michigan Wrestling Graphics",
+    "text": "Michigan Wrestling Graphics"
+  },
+  {
+    "objectID": "slides/slides.html#bibliography",
+    "href": "slides/slides.html#bibliography",
+    "title": "My Slides File for Lab 3",
+    "section": "Bibliography",
+    "text": "Bibliography\nSpecial thanks to (Cline 1992) for writing a book about economics! And thanks to (Kuzmits and Adams 2008) for writing a paper about the NFL draft!\n\n\n\n\nCline, William R. 1992. “The Economics of Global Warming.” Institute for International Economics, Washington, DC, 399.\n\n\nKuzmits, Frank E, and Arthur J Adams. 2008. “The NFL Combine: Does It Predict Performance in the National Football League?” The Journal of Strength & Conditioning Research 22 (6): 1721–27."
   }
 ]

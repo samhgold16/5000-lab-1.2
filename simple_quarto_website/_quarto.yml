@@ -6,15 +6,17 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - about.ipynb
+        text: "Home"
+      - href: about.ipynb
+        text: "About Me"
+      - text: "My Slides"
+        href: slides/slides.ipynb
 
 format:
   html:
     theme:
       - cosmo
       - brand
-    css: styles.css
     toc: true
 
 

@@ -28,7 +28,27 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -138,16 +158,55 @@ Sam Gold
 </div>
 
 </section>
-<section id="section" class="slide level2">
-<h2></h2>
+<section id="intro-slide" class="slide level2">
+<h2>Intro Slide</h2>
+<p>Hello</p>
+<p>…</p>
+<p>Goodbye</p>
 </section>
-<section id="section-1" class="slide level2">
-<h2></h2>
+<section id="cool-columns" class="slide level2">
+<h2>Cool Columns</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p>Left column</p>
+<ul>
+<li>L</li>
+<li>E</li>
+<li>F</li>
+<li>T</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<p>Right column</p>
+<ul>
+<li>R</li>
+<li>I</li>
+<li>G</li>
+<li>H</li>
+<li>T</li>
+</ul>
+</div></div>
 </section>
-<section id="section-2" class="slide level2">
-<h2></h2>
+<section id="cool-tables-and-plots" class="slide level2">
+<h2>Cool Tables and Plots</h2>
+
+<img data-src="slides_files/figure-revealjs/cell-2-output-1.png" class="r-stretch"></section>
+<section id="michigan-wrestling-graphics" class="slide level2" data-background-color="#FFCB05">
+<h2>Michigan Wrestling Graphics</h2>
+<p><img data-src="images/griffithaa.png" style="width:30.0%" alt="WRM Graphic"> <img data-src="images/davisonaa.png" style="width:30.0%" alt="WRM Graphic2"> <img data-src="images/parrisb10.png" style="width:30.0%" alt="WRM Graphic2"></p>
+</section>
+<section id="bibliography" class="slide level2 smaller scrollable">
+<h2>Bibliography</h2>
+<p>Special thanks to <span class="citation" data-cites="cline1992economics">(<a href="#/bibliography" role="doc-biblioref" onclick="">Cline 1992</a>)</span> for writing a book about economics! And thanks to <span class="citation" data-cites="kuzmits2008nfl">(<a href="#/bibliography" role="doc-biblioref" onclick="">Kuzmits and Adams 2008</a>)</span> for writing a paper about the NFL draft!</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-cline1992economics" class="csl-entry" role="listitem">
+Cline, William R. 1992. <span>“The Economics of Global Warming.”</span> <em>Institute for International Economics, Washington, DC</em>, 399.
+</div>
+<div id="ref-kuzmits2008nfl" class="csl-entry" role="listitem">
+Kuzmits, Frank E, and Arthur J Adams. 2008. <span>“The NFL Combine: Does It Predict Performance in the National Football League?”</span> <em>The Journal of Strength &amp; Conditioning Research</em> 22 (6): 1721–27.
+</div>
+</div>
 </section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
